@@ -3,6 +3,7 @@ package dev.clacrone.interview;
 import java.io.FileNotFoundException;
 
 import dev.clacrone.interview.basic.BasicQuestionsRunner;
+import dev.clacrone.interview.hashmap.TMHashMapRunner;
 import dev.clacrone.interview.stacksqueuesbags.StacksQueuesBagsRunner;
 import dev.clacrone.interview.threesum.ThreeSumRunner;
 import dev.clacrone.interview.trees.TreeQuestionsRunner;
@@ -50,9 +51,14 @@ public class Main {
 		WordLadderRunner.runWordLadder();
 	}
 	
+	public static void runTMHashMap() {
+		TMHashMapRunner.runTMHashMap();
+	}
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		runBasicQuestions();
+//		runBasicQuestions();
+		runTMHashMap();
 	}
 
 }
