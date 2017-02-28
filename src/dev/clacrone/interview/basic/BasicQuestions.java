@@ -423,6 +423,40 @@ public class BasicQuestions {
 		}
 		return sb.toString();
 	}
+	
+	public static String serializeSpaces(char[] characters, int length) {
+		int spaceCount = 0;
+		int newLength = 0;
+		int i;
+		
+		for (i = 0; i < length; i++) {
+			if (characters[i] == ' ') {
+				spaceCount++;
+			}
+		}
+		
+		newLength = length + (spaceCount * 2);
+//		characters[newLength] = '\0';
+		
+		for (i = length - 1; i >= 0; i--) {
+			if (characters[i] == ' ') {
+				characters[newLength - 1] = '0';
+				characters[newLength - 2] = '2';
+				characters[newLength - 3] = '%';
+				newLength = newLength - 3;
+			} else {
+				characters[newLength - 1] = characters[i];
+				newLength = newLength - 1;
+			}
+		}
+		
+		StringBuilder sb = new StringBuilder();
+		for (char c : characters) {
+			sb.append(c);
+		}
+
+		return sb.toString();
+	}
 
 	/**
 	 * FizzBuzz

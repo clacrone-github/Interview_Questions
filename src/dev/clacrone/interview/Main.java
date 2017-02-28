@@ -4,6 +4,10 @@ import java.io.FileNotFoundException;
 
 import dev.clacrone.interview.basic.BasicQuestionsRunner;
 import dev.clacrone.interview.hashmap.TMHashMapRunner;
+import dev.clacrone.interview.queues.QueueQuestionsRunner;
+import dev.clacrone.interview.searching.SearchingQuestionsRunner;
+import dev.clacrone.interview.sorting.SortingQuestionsRunner;
+import dev.clacrone.interview.stacks.StackQuestionsRunner;
 import dev.clacrone.interview.stacksqueuesbags.StacksQueuesBagsRunner;
 import dev.clacrone.interview.threesum.ThreeSumRunner;
 import dev.clacrone.interview.trees.TreeQuestionsRunner;
@@ -55,10 +59,30 @@ public class Main {
 		TMHashMapRunner.runTMHashMap();
 	}
 	
+	public static void runSortingQuestions() {
+		SortingQuestionsRunner.runSortingQuestions();
+	}
+	
+	public static void runSearchingQuestions() {
+		SearchingQuestionsRunner.runSearchingQuestions();
+	}
+	
+	public static void runStackQuestions() {
+		StackQuestionsRunner.runStackQuestions();
+	}
+	
+	public static void runQueueQuestions() {
+		QueueQuestionsRunner.runQueueQuestions();
+	}
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-//		runBasicQuestions();
-		runTMHashMap();
+		runBasicQuestions();
+//		runTMHashMap();
+//		runSearchingQuestions();
+//		runSortingQuestions();
+//		runStackQuestions();
+//		runQueueQuestions();
 	}
 
 }
