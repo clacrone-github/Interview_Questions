@@ -3,7 +3,9 @@ package dev.clacrone.interview;
 import java.io.FileNotFoundException;
 
 import dev.clacrone.interview.basic.BasicQuestionsRunner;
+import dev.clacrone.interview.graphs.GraphQuestionsRunner;
 import dev.clacrone.interview.hashmap.TMHashMapRunner;
+import dev.clacrone.interview.heaps.HeapQuestionsRunner;
 import dev.clacrone.interview.queues.QueueQuestionsRunner;
 import dev.clacrone.interview.searching.SearchingQuestionsRunner;
 import dev.clacrone.interview.sorting.SortingQuestionsRunner;
@@ -75,14 +77,24 @@ public class Main {
 		QueueQuestionsRunner.runQueueQuestions();
 	}
 	
+	public static void runHeapQuestions() {
+		HeapQuestionsRunner.runHeapQuestions();
+	}
+	
+	public static void runGraphQuestions() {
+		GraphQuestionsRunner.runGraphQuestions();
+	}
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		runBasicQuestions();
+//		runBasicQuestions();
 //		runTMHashMap();
 //		runSearchingQuestions();
 //		runSortingQuestions();
 //		runStackQuestions();
 //		runQueueQuestions();
+//		runHeapQuestions();
+		runGraphQuestions();
 	}
 
 }
