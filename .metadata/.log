@@ -1,0 +1,252 @@
+!SESSION 2017-08-15 14:01:18.600 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_141
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/lacronec/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/lacronec/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2017-08-15 14:01:39.594
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 2 0 2017-08-15 14:01:41.214
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-08-15 14:01:41.214
+!MESSAGE A conflict occurred for ALT+SHIFT+X C:
+Binding(ALT+SHIFT+X C,
+	ParameterizedCommand(Command(Coral.serverLaunchShortcut.run,Run Coral Service,
+		Run a Coral Service,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@514b247b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+X C,
+	ParameterizedCommand(Command(org.eclipse.ajdt.launching.runShortcut.run,Run AspectJ/Java Application,
+		Run AspectJ/Java Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@66b62ebd,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-08-15 14:01:41.214
+!MESSAGE A conflict occurred for ALT+SHIFT+D C:
+Binding(ALT+SHIFT+D C,
+	ParameterizedCommand(Command(Coral.serverLaunchShortcut.debug,Debug Coral Service,
+		Run a Coral Service within the debugger,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5440a3a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+D C,
+	ParameterizedCommand(Command(org.eclipse.ajdt.launching.runShortcut.debug,Debug AspectJ/Java Application,
+		Debug AspectJ/Java Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@18cb4ed1,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY amazon.devtools.brazil.eclipse.BrazilCommonEclipsePlugin 2 -1 2017-08-15 14:01:43.839
+!MESSAGE No existing workspace found
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2017-08-15 14:01:44.013
+!MESSAGE Starting the AWS toolkit core plugin...
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2017-08-15 14:01:49.285
+!MESSAGE No profile found: default
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2017-08-15 14:01:49.338
+!MESSAGE Monitoring content of /Users/lacronec/.aws/credentials
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2017-08-15 14:01:49.448
+!MESSAGE AWS toolkit core plugin initialized after 5436 milliseconds.
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2017-08-15 14:01:49.456
+!MESSAGE The current accountId is not found in the system. Switching to the default account.
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2017-08-15 14:01:49.914
+!MESSAGE Initialized a new Cognito identity us-east-1:d0ccc8c7-8d0d-45ac-83d6-d52d682f234a
+
+!ENTRY com.amazonaws.eclipse.sdk.ui 1 0 2017-08-15 14:02:24.110
+!MESSAGE Downloading the SDK from CloudFront to location /var/folders/7l/0npqn3jj7611th_tz_ny9d0hyc2pty/T/aws-java-sdk579438374251852554/sdk.zip
+
+!ENTRY com.amazonaws.eclipse.sdk.ui 1 0 2017-08-15 14:02:51.165
+!MESSAGE SDK download completes. Location: /var/folders/7l/0npqn3jj7611th_tz_ny9d0hyc2pty/T/aws-java-sdk579438374251852554/sdk.zip, File-length: 312819940
+!SESSION 2017-08-19 16:50:15.375 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_141
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/lacronec/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/lacronec/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.jface 2 0 2017-08-19 16:50:26.101
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-08-19 16:50:26.101
+!MESSAGE A conflict occurred for ALT+SHIFT+X C:
+Binding(ALT+SHIFT+X C,
+	ParameterizedCommand(Command(Coral.serverLaunchShortcut.run,Run Coral Service,
+		Run a Coral Service,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@684bfba9,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+X C,
+	ParameterizedCommand(Command(org.eclipse.ajdt.launching.runShortcut.run,Run AspectJ/Java Application,
+		Run AspectJ/Java Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6f9b5f01,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-08-19 16:50:26.101
+!MESSAGE A conflict occurred for ALT+SHIFT+D C:
+Binding(ALT+SHIFT+D C,
+	ParameterizedCommand(Command(Coral.serverLaunchShortcut.debug,Debug Coral Service,
+		Run a Coral Service within the debugger,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6859bbd4,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+D C,
+	ParameterizedCommand(Command(org.eclipse.ajdt.launching.runShortcut.debug,Debug AspectJ/Java Application,
+		Debug AspectJ/Java Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4a225014,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY amazon.devtools.brazil.eclipse.BrazilCommonEclipsePlugin 2 -1 2017-08-19 16:50:35.124
+!MESSAGE No existing workspace found
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2017-08-19 16:50:35.278
+!MESSAGE Starting the AWS toolkit core plugin...
+
+!ENTRY amazon.devtools.brazil.eclipse.BrazilEclipsePlugin 4 0 2017-08-19 16:50:36.133
+!MESSAGE Error prefetching package names
+!STACK 0
+java.lang.RuntimeException: Error prefetching package names
+	at amazon.devtools.brazil.eclipse.wizards.NewBrazilJavaProjectFirstPage.updatePackageSet(NewBrazilJavaProjectFirstPage.java:454)
+	at amazon.devtools.brazil.eclipse.jobs.GetPackageNamesJob.run(GetPackageNamesJob.java:24)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: amazon.tinybmds.BMDSClientException: Unable to query BMDS!
+	at amazon.tinybmds.BMDSClient.callBMDSMethod(BMDSClient.java:1336)
+	at amazon.tinybmds.BMDSClient.callBMDSMethod(BMDSClient.java:1290)
+	at amazon.tinybmds.BMDSClient.getPackageNames(BMDSClient.java:402)
+	at amazon.devtools.brazil.bmds.BMDS.getPackageNames(BMDS.java:28)
+	at amazon.devtools.brazil.eclipse.wizards.NewBrazilJavaProjectFirstPage.updatePackageSet(NewBrazilJavaProjectFirstPage.java:451)
+	... 2 more
+Caused by: amazon.resting.RESTException: Error while invoking remote method (tried 3 times):http://brazil-metadata.amazon.com:80/BMDS?method=getPackageNames&prefix=
+Status Code: 1001
+Status Description: Unable to complete the HTTP call due to a communication error with the remote server. brazil-metadata.amazon.com
+	at amazon.resting.RESTUtils.invokeCall(RESTUtils.java:311)
+	at amazon.resting.RESTUtils.getResourceByMethodAndParameters(RESTUtils.java:92)
+	at amazon.resting.RESTUtils.getResource(RESTUtils.java:69)
+	at amazon.tinybmds.BMDSClient.getResource(BMDSClient.java:1356)
+	at amazon.tinybmds.BMDSClient.callBMDSMethod(BMDSClient.java:1329)
+	... 6 more
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2017-08-19 16:50:37.277
+!MESSAGE Monitoring content of /Users/lacronec/.aws/credentials
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2017-08-19 16:50:37.352
+!MESSAGE AWS toolkit core plugin initialized after 2074 milliseconds.
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2017-08-19 16:50:37.365
+!MESSAGE Found valid identity id cache us-east-1:d0ccc8c7-8d0d-45ac-83d6-d52d682f234a
+
+!ENTRY com.amazonaws.eclipse.sdk.ui 1 0 2017-08-19 16:50:45.125
+!MESSAGE Downloading the SDK from CloudFront to location /var/folders/7l/0npqn3jj7611th_tz_ny9d0hyc2pty/T/aws-java-sdk3383134174164266363/sdk.zip
+
+!ENTRY com.amazonaws.eclipse.sdk.ui 1 0 2017-08-19 16:51:13.943
+!MESSAGE SDK download completes. Location: /var/folders/7l/0npqn3jj7611th_tz_ny9d0hyc2pty/T/aws-java-sdk3383134174164266363/sdk.zip, File-length: 313776425
+!SESSION 2017-09-03 11:30:01.718 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_141
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/lacronec/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/lacronec/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.jface 2 0 2017-09-03 11:30:13.633
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-09-03 11:30:13.633
+!MESSAGE A conflict occurred for ALT+SHIFT+D C:
+Binding(ALT+SHIFT+D C,
+	ParameterizedCommand(Command(Coral.serverLaunchShortcut.debug,Debug Coral Service,
+		Run a Coral Service within the debugger,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3c717ef2,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+D C,
+	ParameterizedCommand(Command(org.eclipse.ajdt.launching.runShortcut.debug,Debug AspectJ/Java Application,
+		Debug AspectJ/Java Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7ca0b05e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-09-03 11:30:13.633
+!MESSAGE A conflict occurred for ALT+SHIFT+X C:
+Binding(ALT+SHIFT+X C,
+	ParameterizedCommand(Command(Coral.serverLaunchShortcut.run,Run Coral Service,
+		Run a Coral Service,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3e5ed0d4,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+X C,
+	ParameterizedCommand(Command(org.eclipse.ajdt.launching.runShortcut.run,Run AspectJ/Java Application,
+		Run AspectJ/Java Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@61c0fb12,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY amazon.devtools.brazil.eclipse.BrazilCommonEclipsePlugin 2 -1 2017-09-03 11:30:24.203
+!MESSAGE No existing workspace found
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2017-09-03 11:30:24.381
+!MESSAGE Starting the AWS toolkit core plugin...
+
+!ENTRY amazon.devtools.brazil.eclipse.BrazilEclipsePlugin 4 0 2017-09-03 11:30:25.084
+!MESSAGE Error prefetching package names
+!STACK 0
+java.lang.RuntimeException: Error prefetching package names
+	at amazon.devtools.brazil.eclipse.wizards.NewBrazilJavaProjectFirstPage.updatePackageSet(NewBrazilJavaProjectFirstPage.java:454)
+	at amazon.devtools.brazil.eclipse.jobs.GetPackageNamesJob.run(GetPackageNamesJob.java:24)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: amazon.tinybmds.BMDSClientException: Unable to query BMDS!
+	at amazon.tinybmds.BMDSClient.callBMDSMethod(BMDSClient.java:1336)
+	at amazon.tinybmds.BMDSClient.callBMDSMethod(BMDSClient.java:1290)
+	at amazon.tinybmds.BMDSClient.getPackageNames(BMDSClient.java:402)
+	at amazon.devtools.brazil.bmds.BMDS.getPackageNames(BMDS.java:28)
+	at amazon.devtools.brazil.eclipse.wizards.NewBrazilJavaProjectFirstPage.updatePackageSet(NewBrazilJavaProjectFirstPage.java:451)
+	... 2 more
+Caused by: amazon.resting.RESTException: Error while invoking remote method (tried 3 times):http://brazil-metadata.amazon.com:80/BMDS?method=getPackageNames&prefix=
+Status Code: 1001
+Status Description: Unable to complete the HTTP call due to a communication error with the remote server. brazil-metadata.amazon.com
+	at amazon.resting.RESTUtils.invokeCall(RESTUtils.java:311)
+	at amazon.resting.RESTUtils.getResourceByMethodAndParameters(RESTUtils.java:92)
+	at amazon.resting.RESTUtils.getResource(RESTUtils.java:69)
+	at amazon.tinybmds.BMDSClient.getResource(BMDSClient.java:1356)
+	at amazon.tinybmds.BMDSClient.callBMDSMethod(BMDSClient.java:1329)
+	... 6 more
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2017-09-03 11:30:27.795
+!MESSAGE Monitoring content of /Users/lacronec/.aws/credentials
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2017-09-03 11:30:27.915
+!MESSAGE AWS toolkit core plugin initialized after 3534 milliseconds.
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2017-09-03 11:30:27.925
+!MESSAGE Found valid identity id cache us-east-1:d0ccc8c7-8d0d-45ac-83d6-d52d682f234a

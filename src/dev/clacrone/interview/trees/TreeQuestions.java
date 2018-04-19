@@ -11,7 +11,7 @@ public class TreeQuestions {
 			return true;
 		}
 
-		if (curr.getData() > max || curr.getData() <= min) {
+		if (curr.getData() > max || curr.getData() <=s min) {
 			return false;
 		}
 
