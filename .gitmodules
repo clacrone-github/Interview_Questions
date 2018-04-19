@@ -1,0 +1,3 @@
+[submodule "SpringTutorial"]
+	path = SpringTutorial
+	url = ../SpringTutorial/
